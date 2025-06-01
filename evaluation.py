@@ -1,5 +1,7 @@
-from prometheus_eval.prompts import ABSOLUTE_PROMPT, SCORE_RUBRIC_TEMPLATE
 from typing import Dict, List
+from google import genai
+
+
 class SentencesEvaluator:
     def __init__(self, api_key:str, task_description:str, criteria:List[str]):
 
@@ -52,7 +54,7 @@ class SentencesEvaluator:
 
 if __name__ == "__main__":
     
-    from google import genai
+    
     desc = """Valuta la seguente traduzione dall'italiano antico all'italiano moderno secondo questi criteri (dai valutazioni da 1 a 5 per ognuno):"""
     criteria = ["Accuratezza del contenuto", 
                 "Fluenza e scorrevolezza", 
@@ -65,4 +67,3 @@ if __name__ == "__main__":
     eval = SentencesEvaluator(api_key="AIzaSyDknRbJ1wUZdF2Tn5FcIxB7HNlrjmSHG4Y", task_description=desc, criteria=criteria)
     res = eval.evaluate_sentence(input_text=input_text, candidate_text=candidate_translation, gold_label="None")
     print(res)
-    
