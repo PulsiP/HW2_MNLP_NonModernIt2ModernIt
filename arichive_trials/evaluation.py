@@ -35,12 +35,14 @@ class SentencesEvaluator:
                                       candidate_text=candidate_text, 
                                       gold_text=gold_label)
         
-        response = self._client.models.generate_content(
-            model="gemini-2.0-flash", contents=prompt
-        )
-        #print(response.text)
-        response = response.text
+        
         try:
+            response = self._client.models.generate_content(
+                model="gemini-2.0-flash", contents=prompt
+            )
+            #print(response.text)
+            response = response.text
+        
             response_dict = dict(map(lambda x:  (x.split(":", 1)[0].strip(), int(x.split(":", 1)[1].strip())), 
                                     response.split(";")[:-1]))
         except: 
@@ -55,14 +57,15 @@ class SentencesEvaluator:
 if __name__ == "__main__":
     
     
-    desc = """Valuta la seguente traduzione dall'italiano antico all'italiano moderno secondo questi criteri (dai valutazioni da 1 a 5 per ognuno):"""
+    desc = """Valuta la seguente traduzione dall'italiano antico all'italiano 
+              moderno secondo questi criteri (dai valutazioni da 1 a 5 per ognuno):"""
     criteria = ["Accuratezza del contenuto", 
                 "Fluenza e scorrevolezza", 
                 "Adeguatezza culturale", 
                 "Stile e registro", 
                 "Terminologia e lessico"]
     
-    input_text = "Onde poi ch’ebbe fine il pianto nostro, che in verità fu grande e pietoso... AGGIUNGI UN BREVE COMMENTO"
+    input_text = "Onde poi ch’ebbe fine il pianto nostro, che in verità fu grande e pietoso..."
     candidate_translation = "Quando poi finì il nostro pianto, che davvero fu intenso e commovente..."
     eval = SentencesEvaluator(api_key="AIzaSyDknRbJ1wUZdF2Tn5FcIxB7HNlrjmSHG4Y", task_description=desc, criteria=criteria)
     res = eval.evaluate_sentence(input_text=input_text, candidate_text=candidate_translation, gold_label="None")
