@@ -1,0 +1,128 @@
+[
+  [
+    {
+      "Author": "Brunetto Latini",
+      "Date": "1260-61",
+      "Region": "fior.",
+      "source_sentence": "Et se l' occhio è nobile membro del corpo dell' uomo, dunque la salutazione è nobile parte della pistola, c' altressì allumina tutta la lettera come l' occhio allumina l' uomo.",
+      "gold_sentence": "E se l’occhio è una parte nobile del corpo umano, allora il saluto è una parte nobile della lettera, che illumina l’intero testo come l’occhio illumina l’uomo.",
+      "predicted_sentence": "Se l'occhio è un membro nobile del corpo umano, allora la guarigione è una parte nobile della medicina. Altrimenti, tutta la lettera si trasforma come l'occhio, rivelando la sua natura.",
+      "prometheus_score": 2,
+      "GPT_score": 2,
+      "user_score": 3
+    },
+    {
+      "Author": "Bono Giamboni",
+      "Date": "1292",
+      "Region": "fior.",
+      "source_sentence": "Tarentini, i quali erano nati di quegli di Lacedemonia et facta da lloro nobile cittade de' Greci.",
+      "gold_sentence": "I Tarantini, nati dai lacedemoni, avevano fondato la loro nobile città greca.",
+      "predicted_sentence": "Tarantini, i quali erano nati da coloro che provenivano da Lacedemia e furono realizzati da un nobile popolo greco.",
+      "prometheus_score": 2,
+      "GPT_score": 3,
+      "user_score": 4
+    },
+    {
+      "Author": "Fatti de' Romani (H+R)",
+      "Date": "1313",
+      "Region": "fior.",
+      "source_sentence": "Ulecois, ebe un uomo rico e nobile: Orgentore fue chiamato per nome.",
+      "gold_sentence": "Ulecois ebbe un uomo ricco e nobile: si chiamava Orgentore.",
+      "predicted_sentence": "Uleco, era un uomo ricco e nobile: Orgentore fu chiamato per nome.",
+      "prometheus_score": 4,
+      "GPT_score": 4,
+      "user_score": 3
+    },
+    {
+      "Author": "Valerio Massimo (red. Va)",
+      "Date": "1336",
+      "Region": "tosc.",
+      "source_sentence": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "gold_sentence": "Perché se è una cosa alta e nobile abbattere il nemico, è altrettanto lodevole saper mostrare misericordia.",
+      "predicted_sentence": "Ma, che nobile cosa e alta è la minaccia, poi non è meno degno essere di avere una misurata prudenza.",
+      "prometheus_score": 1,
+      "GPT_score": 1,
+      "user_score": 2
+    },
+    {
+      "Author": "Bono Giamboni",
+      "Date": "1292",
+      "Region": "fior.",
+      "source_sentence": "Alexandri, ciò è il genero e 'l figliuolo, da Phausonia, gentile iovane di Macedonia, stando in uno luogo strecto sanza guardia, fue morto.",
+      "gold_sentence": "Alessandro, cioè suo genero e figlio, fu ucciso in un luogo stretto e privo di difese mentre stava con Pausonia, giovane nobile di Macedonia.",
+      "predicted_sentence": "Alexandri, figlio e nipote del suo padre, Phausonia, di origine iovana di Macedonia, che si trovava in una posizione stretta e inosservata, è morto.",
+      "prometheus_score": 5,
+      "GPT_score": 2,
+      "user_score": 3
+    },
+    {
+      "Author": "Grazia di Meo",
+      "Date": "1343",
+      "Region": "tosc.",
+      "source_sentence": "Alchuno è riccho e gentile, ma lamentasi che vorebbe avere altra moglie che quella ch'egli à.",
+      "gold_sentence": "C’è chi è ricco e nobile, ma si lamenta di voler un’altra moglie al posto di quella che ha.",
+      "predicted_sentence": "Alchuno è ricco e gentile, ma lamentandosi di desiderare una seconda moglie, quella che ha.",
+      "prometheus_score": 3,
+      "GPT_score": 2,
+      "user_score": 2
+    },
+    {
+      "Author": "Zanobi da Strada",
+      "Date": "1361",
+      "Region": "tosc.",
+      "source_sentence": "Pietro, essendogli mostrato in figura il populo Gentile, sì gli fu detto: ammazza, e mangia",
+      "gold_sentence": "A Pietro, mostrata in figura la gente pagana, fu detto: “Uccidi e mangia.”",
+      "predicted_sentence": "Pietro, quando gli fu mostrata la figura del Popolo Gentile, gli furono ordinati di uccidere e mangiare.",
+      "prometheus_score": 4,
+      "GPT_score": 3,
+      "user_score": 4
+    },
+    {
+      "Author": "Declamazioni di Seneca",
+      "Date": "1392",
+      "Region": "tosc.",
+      "source_sentence": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "gold_sentence": "Gli chiese di essere liberato da quell’obbligo che gli era stato imposto. Il nobile uomo acconsentì, lo liberò, e ne redasse un documento.",
+      "predicted_sentence": "L’esilio che mi aveva liberato da quella vincolo, in cui egli era rimasto incastrato. Il gentile uomo si rifiutò, e lo liberò, e lo trasformò in carta.",
+      "prometheus_score": 3,
+      "GPT_score": 1,
+      "user_score": 1
+    },
+    {
+      "Author": "Giovanni da San Miniato",
+      "Date": "1415",
+      "Region": "tosc.",
+      "source_sentence": "L'oro verrà dall'Aquilone. Che figuriamo noi per l'Aquilone, se non il populo Gentile congelato dal freddo del peccato, il qual populo tenne sotto il giogo della sua tirannia",
+      "gold_sentence": "L’oro verrà dal Settentrione. Cosa rappresenta il Settentrione se non il popolo pagano, congelato dal freddo del peccato, che fu tenuto sotto il giogo della sua tirannia?",
+      "predicted_sentence": "L'oro verrà dall'Aquilone. Cosa ci dice questa frase del nostro tempo? Ci troviamo in una situazione di dipendenza da un potere, un'autorità, che è stata erosa dal peccato, un popolo che si è arreso alla tirannia.",
+      "prometheus_score": 2,
+      "GPT_score": 2,
+      "user_score": 2
+    },
+    {
+      "Author": "Prima catilinaria volg. (red. A)",
+      "Date": "1294",
+      "Region": "fior.",
+      "source_sentence": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "gold_sentence": "Sia in mezzo tra me e te: con noi non puoi più rimanere a lungo, perché io non lo permetterò e non lo tollererò oltre.",
+      "predicted_sentence": "In mezzo a me, non puoi più più vivere. Non lo sopporterò, non lo lascerò.",
+      "prometheus_score": 2,
+      "GPT_score": 1,
+      "user_score": 2
+    }
+  ],
+  {
+    "GPT_score": {
+      "Pearson": 0.29939247542604785,
+      "spearman_corr": 0.30034475470292454,
+      "kendall_corr": 0.22230800575069135
+    }
+  },
+  {
+    "Prometheus_score": {
+      "Pearson": 0.7401936032947599,
+      "spearman_corr": 0.8066666666666666,
+      "kendall_corr": 0.7142857142857143
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "source_sentences": "Et se l' occhio è nobile membro del corpo dell' uomo, dunque la salutazione è nobile parte della pistola, c' altressì allumina tutta la lettera come l' occhio allumina l' uomo.",
+      "gold_sentences": "E se l’occhio è una parte nobile del corpo umano, allora il saluto è una parte nobile della lettera, che illumina l’intero testo come l’occhio illumina l’uomo.",
+      "predicted_sentences": "Se l'occhio è un membro nobile del corpo dell'uomo, allora la salute è una parte nobile della lettera, e l'altre parte la illumina come l'occhio stesso illumina l'uomo.",
+      "prometheus_score": 4,
+      "GPT_score": 4,
+      "user_score": 5
+    },
+    {
+      "source_sentences": "Tarentini, i quali erano nati di quegli di Lacedemonia et facta da lloro nobile cittade de' Greci.",
+      "gold_sentences": "I Tarantini, nati dai lacedemoni, avevano fondato la loro nobile città greca.",
+      "predicted_sentences": "I Tessori, i quali erano nati da quelli che erano nati da Lacedemia e da un corvo nobile, città greche.",
+      "prometheus_score": 1,
+      "GPT_score": 1,
+      "user_score": 1
+    },
+    {
+      "source_sentences": "Ulecois, ebe un uomo rico e nobile: Orgentore fue chiamato per nome.",
+      "gold_sentences": "Ulecois ebbe un uomo ricco e nobile: si chiamava Orgentore.",
+      "predicted_sentences": "Ugo era un uomo ricco e nobile, Orgentore fu chiamato per nome.",
+      "prometheus_score": 4,
+      "GPT_score": 4,
+      "user_score": 4
+    },
+    {
+      "source_sentences": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "gold_sentences": "Perché se è una cosa alta e nobile abbattere il nemico, è altrettanto lodevole saper mostrare misericordia.",
+      "predicted_sentences": "Ma il nemico è potente, e la conoscenza di avere un senso di misura è importante.",
+      "prometheus_score": 3,
+      "GPT_score": 2,
+      "user_score": 1
+    },
+    {
+      "source_sentences": "Alexandri, ciò è il genero e 'l figliuolo, da Phausonia, gentile iovane di Macedonia, stando in uno luogo strecto sanza guardia, fue morto.",
+      "gold_sentences": "Alessandro, cioè suo genero e figlio, fu ucciso in un luogo stretto e privo di difese mentre stava con Pausonia, giovane nobile di Macedonia.",
+      "predicted_sentences": "Alexandrio, figlio e nipote del genero Phausonia, di origini macedoni, che viveva in un luogo stretto e inosservato, è morto.",
+      "prometheus_score": 1,
+      "GPT_score": 3,
+      "user_score": 5
+    },
+    {
+      "source_sentences": "Alchuno è riccho e gentile, ma lamentasi che vorebbe avere altra moglie che quella ch'egli à.",
+      "gold_sentences": "C’è chi è ricco e nobile, ma si lamenta di voler un’altra moglie al posto di quella che ha.",
+      "predicted_sentences": "Qualcuno è ricco e gentile, ma lamenta di voler avere un'altra moglie rispetto a quella che già possiede.",
+      "prometheus_score": 3,
+      "GPT_score": 5,
+      "user_score": 4
+    },
+    {
+      "source_sentences": "Pietro, essendogli mostrato in figura il populo Gentile, sì gli fu detto: ammazza, e mangia",
+      "gold_sentences": "A Pietro, mostrata in figura la gente pagana, fu detto: “Uccidi e mangia.”",
+      "predicted_sentences": "Muoviti.",
+      "prometheus_score": 1,
+      "GPT_score": 1,
+      "user_score": 1
+    },
+    {
+      "source_sentences": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "gold_sentences": "Gli chiese di essere liberato da quell’obbligo che gli era stato imposto. Il nobile uomo acconsentì, lo liberò, e ne redasse un documento.",
+      "predicted_sentences": "Che lo liberasse da quella obbligazione, in cui egli l' aveva lasciato ubbligato. Il gentile uomo si rifiutò, e lo liberò, e lo fece carta.",
+      "prometheus_score": 3,
+      "GPT_score": 2,
+      "user_score": 2
+    },
+    {
+      "source_sentences": "L'oro verrà dall'Aquilone. Che figuriamo noi per l'Aquilone, se non il populo Gentile congelato dal freddo del peccato, il qual populo tenne sotto il giogo della sua tirannia",
+      "gold_sentences": "L’oro verrà dal Settentrione. Cosa rappresenta il Settentrione se non il popolo pagano, congelato dal freddo del peccato, che fu tenuto sotto il giogo della sua tirannia?",
+      "predicted_sentences": "L'oro sarà ottenuto dall'Aquilone. Siamo in una situazione in cui non possiamo competere con il popolo Gentile, che è stato congelato dal freddo del peccato, e questo popolo era sotto il giogo della sua tirannia.",
+      "prometheus_score": 4,
+      "GPT_score": 3,
+      "user_score": 3
+    },
+    {
+      "source_sentences": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "gold_sentences": "Sia in mezzo tra me e te: con noi non puoi più rimanere a lungo, perché io non lo permetterò e non lo tollererò oltre.",
+      "predicted_sentences": "Tra me e te: non puoi più stare a lungo con noi. Non lo sopporterò e non lo lascerò.",
+      "prometheus_score": 5,
+      "GPT_score": 4,
+      "user_score": 5
+    }
+  ],
+  {
+    "GPT_score": {
+      "Pearson": 0.4922842447811658,
+      "spearman_corr": 0.5178237582537449,
+      "kendall_corr": 0.4866642633922877
+    }
+  },
+  {
+    "Prometheus_score": {
+      "Pearson": 0.8489049824138024,
+      "spearman_corr": 0.7961944947578045,
+      "kendall_corr": 0.6753816335059705
+    }
+  }
+]
