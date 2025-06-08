@@ -1,0 +1,559 @@
+WITHOUT IN CONTEXT LEARNING
+
+Prompt given to chat-gpt:
+Evaluate these translations from old Italian to modern Italian using these evaluations key-points:
+
+1)= Unacceptable – The translation is completely unrelated to the original meaning; it may be gibberish or nonsensical.
+
+2)= Very Poor – Major semantic or syntactic errors, including omissions or additions, make the translation unnatural and something no human would write.
+
+3)= Fair – The translation contains minor issues such as typos or small semantic errors but generally conveys the intended meaning.
+
+4)= Good – The translation is mostly accurate and faithful to the source, though the style may differ slightly. It remains fluent and understandable.
+
+5)= Excellent – The translation is fully accurate, fluent, coherent, and preserves the original meaning completely.
+
+Sentence 1
+Italiano Arcaico -> Gli uomini spessamente a stare fermi nella bugia incontra la verità.
+Italiano moderno -> Essere fermi nella menzogna incontra la verità.
+Score=5
+
+-----------------------------------------
+Sentence 2
+Italiano Arcaico -> quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno
+Italiano moderno -> La guerra combattuta con tanta forza era un’occasione unica, per dirla tutta. D’altra parte, Aiaces era un cavaliere franco e coraggioso, ma non era particolarmente saggio.
+Score=4
+
+-----------------------------------------
+Sentence 3
+Italiano Arcaico -> Tarentini, i quali erano nati di quegli di Lacedemonia et facta da lloro nobile cittade de' Greci.
+Italiano moderno -> I tarentini, che provenivano da quelle città di Lacedemo e di costruzione del nobile popolo greco, nati da quei diari.
+Score=2
+
+-----------------------------------------
+Sentence 4
+Italiano Arcaico -> per tanto che Lucano il disse, il vi racontiamo. Ivi, quando l'anima di Pompeo ebe sentito la chiarità di lasusso, ella sì cognobe prima in  grande
+Italiano moderno -> “Lucano disse, e noi lo raccontiamo. Qui, quando l'anima di Pompeo percepì la chiarezza di Lassego, ne capì subito la grandezza.”
+Score=4
+
+-----------------------------------------
+Sentence 5
+Italiano Arcaico -> uno luogo si mandano lancioni;  la quale cosa i cavalieri l' appellano capo di porco
+Italiano moderno -> “Si urlano messaggi, si fanno proclamare i canti; i cavalieri lo chiamano il capo di porco.”
+Score=2
+
+-----------------------------------------
+Sentence 6
+Italiano Arcaico -> Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato
+Italiano moderno -> “I poeti, parlando di lupi, raccontano virtù e descrivono i loro difetti, quando un deputato lupo passava l'ordine.”
+Score=1
+
+-----------------------------------------
+Sentence 7
+Italiano Arcaico -> Non voglio, che insuperbischi per lo santo proposito, e voto della verginità vedendo le sue laudi
+Italiano moderno -> Non voglio che venga commesso per un atto santo, e voto la verginità, vedendo le sue opere.
+Score=2
+
+-----------------------------------------
+Sentence 8
+Italiano Arcaico -> Alexandri, ciò è il genero e 'l figliuolo, da Phausonia, gentile iovane di Macedonia, stando in uno luogo strecto sanza guardia, fue morto.
+Italiano moderno -> Alexandri, figlio e nipote del suo antenato Phausonia, un uomo gentile di Macedonia, morì in uno spazio stretto e non vigilato.
+Score=2
+
+-----------------------------------------
+Sentence 9
+Italiano Arcaico -> L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.
+Italiano moderno -> L’uccello, poi che ha impazzito le ali, non fugge salvatamente, né lo scoiattolo salvatico esce bene da quelle reti in cui cade.
+Score=1
+
+-----------------------------------------
+Sentence 10
+Italiano Arcaico -> l' anima muta la sua forza per la propietade di quello corpo a cui ella si congiunge.
+Italiano moderno -> L'anima muta la sua forza per la proprietà di quel corpo a cui si congiunge.
+Score=5
+
+Average Score=2.8
+
+WITH IN CONTEXT LEARNING
+
+Sentence 1
+Italiano Arcaico -> Gli uomini spessamente a stare fermi nella bugia incontra la verità.
+Italiano moderno -> “Gli uomini che si aggrappano fermamente alla menzogna spesso incontrano la verità.”
+score=5
+
+-----------------------------------------
+Sentence 2
+Italiano Arcaico -> quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno
+Italiano moderno -> “Quella guerra fu di grande importanza; per raggiungere i suoi obiettivi, l’opera si è compiuta. Dall’altra parte, Aiaces era un cavaliere franco e valoroso, di grande prestigio, ma non era particolarmente saggio.”
+score=4
+
+-----------------------------------------
+Sentence 3
+Italiano Arcaico -> Tarentini, i quali erano nati di quegli di Lacedemonia et facta da lloro nobile cittade de' Greci.
+Italiano moderno -> “I Tarentini, provenienti da Lacedonia e creati da una nobile città greca, erano un popolo di grande linfa.”
+score=2
+
+-----------------------------------------
+Sentence 4
+Italiano Arcaico -> per tanto che Lucano il disse, il vi racontiamo. Ivi, quando l'anima di Pompeo ebe sentito la chiarità di lasusso, ella sì cognobe prima in  grande
+Italiano moderno -> “Per quanto Lucano abbia affermato, questo racconto ci viene narrato. Quando l'anima di Pompeo fu sentita, la chiarezza di Lascio, e la sua comprensione crebbe, *prima* ebbe una conoscenza profonda di quella situazione.”
+score=2
+
+-----------------------------------------
+Sentence 5
+Italiano Arcaico -> uno luogo si mandano lancioni;  la quale cosa i cavalieri l' appellano capo di porco
+Italiano moderno -> “Si mandano lancioni in un luogo. I cavalieri lo chiamano la testa di porco.”
+score=5
+
+-----------------------------------------
+Sentence 6
+Italiano Arcaico -> Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato
+Italiano moderno -> “Quando i poeti parlano di lupi, raccontano le virtù dei loro compagni e narrano storie allegoriche dei loro difetti, quando un ordine viene dato a un deputato che combatte contro i lupi.”
+score=1
+
+-----------------------------------------
+Sentence 7
+Italiano Arcaico -> Non voglio, che insuperbischi per lo santo proposito, e voto della verginità vedendo le sue laudi
+Italiano moderno -> Non voglio che qualcuno si sfili per il santo proposito, né che la mia verginità sia vista come un atto di peccato. Vedendo le sue lodi, il voto della verginità mi sembra un’apparenza, un’illusione.
+score=2
+
+-----------------------------------------
+Sentence 8
+Italiano Arcaico -> Alexandri, ciò è il genero e 'l figliuolo, da Phausonia, gentile iovane di Macedonia, stando in uno luogo strecto sanza guardia, fue morto.
+Italiano moderno -> Alexandri, il suo genero e figlio, originario di Phausonia, una regione di fioritura, gentile e imponente, seduto in un luogo isolato e non vigilato, è morto.
+score=2
+
+-----------------------------------------
+Sentence 9
+Italiano Arcaico -> L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.
+Italiano moderno -> “L'uccello, dopo aver imparato a volare, non riesce più a sfuggire, né il porco del genere si libera bene dalle reti in cui cade.”
+score=1
+
+-----------------------------------------
+Sentence 10
+Italiano Arcaico -> l' anima muta la sua forza per la propietade di quello corpo a cui ella si congiunge.
+Italiano moderno -> L'anima muta la sua forza per la proprietà di quel corpo a cui si unisce.
+score=5
+
+Average Score=2.9
+
+Prompt given to chat-gpt:
+Evaluate these translations from old Italian to modern Italian using the Goof Kfouri Rubric:
+
+WITHOUT IN CONTEXT LEARNING
+
+Sentence    Accuracy    Grammar    Style    Idiomaticity	Average Score   Note
+1	        3	        4	        3	    3	            3.25            Decent abstraction, slight loss of subject
+2	        4	        5	        4	    4	            4.75            Strong all around
+3	        2	        2   	    2   	1	            1.75            Semantic and lexical failure
+4	        2	        4   	    3   	3	            3.00            Lapses in clarity
+5	        1	        3   	    2   	2	            2.00            Misinterpretation
+6	        2	        3   	    2   	2	            2.25            Subject error
+7	        1	        3   	    2   	2	            2.00            Off-topic addition
+8	        3	        4   	    3   	3           	3.25            Acceptable, slightly embellished
+9	        1	        2   	    2   	1           	1.50            Core meaning lost
+10	        5	        5	        4   	5	            4.75            Excellent
+
+Average Score=2.85
+
+WITH IN CONTEXT LEARNING
+
+Sentence	Accuracy    Grammar    Style    Idiomaticity    Average Score   Notes
+1	        5	        5	       4    	5           	4.75            Strong, natural
+2	        4       	5          4    	4           	4.25            Good with minor additions
+3          	3       	4          3    	3           	3.25            Minor historical inaccuracies
+4	        3	        5	       4	    4	            4.00            Fluent but interpretive
+5	        3	        4	       3	    3	            3.25            Slight loss of formality
+6	        3	        5	       4	    4	            4.00            Interpretive but fluent
+7	        2	        4	       3	    3	            3.00            Adds non-explicit ideas
+8	        3	        4	       3	    3	            3.25            Embellished slightly
+9	        2	        4	       3	    3	            3.00            Meaning shifted
+10	        5	        5	       4	    5	            4.75            Very good
+
+Average Score=4.075
+
+Scores given by us:
+
+WITHOUT IN CONTEXT LEARNING
+
+Sentence 1
+Italiano Arcaico -> Gli uomini spessamente a stare fermi nella bugia incontra la verità.
+Italiano moderno -> Essere fermi nella menzogna incontra la verità.
+Score=5
+
+-----------------------------------------
+Sentence 2
+Italiano Arcaico -> quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno
+Italiano moderno -> La guerra combattuta con tanta forza era un’occasione unica, per dirla tutta. D’altra parte, Aiaces era un cavaliere franco e coraggioso, ma non era particolarmente saggio.
+Score=5
+
+-----------------------------------------
+Sentence 3
+Italiano Arcaico -> Tarentini, i quali erano nati di quegli di Lacedemonia et facta da lloro nobile cittade de' Greci.
+Italiano moderno -> I tarentini, che provenivano da quelle città di Lacedemo e di costruzione del nobile popolo greco, nati da quei diari.
+Score=3
+
+-----------------------------------------
+Sentence 4
+Italiano Arcaico -> per tanto che Lucano il disse, il vi racontiamo. Ivi, quando l'anima di Pompeo ebe sentito la chiarità di lasusso, ella sì cognobe prima in  grande
+Italiano moderno -> “Lucano disse, e noi lo raccontiamo. Qui, quando l'anima di Pompeo percepì la chiarezza di Lassego, ne capì subito la grandezza.”
+Score=5
+
+-----------------------------------------
+Sentence 5
+Italiano Arcaico -> uno luogo si mandano lancioni;  la quale cosa i cavalieri l' appellano capo di porco
+Italiano moderno -> “Si urlano messaggi, si fanno proclamare i canti; i cavalieri lo chiamano il capo di porco.”
+Score=3
+
+-----------------------------------------
+Sentence 6
+Italiano Arcaico -> Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato
+Italiano moderno -> “I poeti, parlando di lupi, raccontano virtù e descrivono i loro difetti, quando un deputato lupo passava l'ordine.”
+Score=1
+
+-----------------------------------------
+Sentence 7
+Italiano Arcaico -> Non voglio, che insuperbischi per lo santo proposito, e voto della verginità vedendo le sue laudi
+Italiano moderno -> Non voglio che venga commesso per un atto santo, e voto la verginità, vedendo le sue opere.
+Score=2
+
+-----------------------------------------
+Sentence 8
+Italiano Arcaico -> Alexandri, ciò è il genero e 'l figliuolo, da Phausonia, gentile iovane di Macedonia, stando in uno luogo strecto sanza guardia, fue morto.
+Italiano moderno -> Alexandri, figlio e nipote del suo antenato Phausonia, un uomo gentile di Macedonia, morì in uno spazio stretto e non vigilato.
+Score=4
+
+-----------------------------------------
+Sentence 9
+Italiano Arcaico -> L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.
+Italiano moderno -> L’uccello, poi che ha impazzito le ali, non fugge salvatamente, né lo scoiattolo salvatico esce bene da quelle reti in cui cade.
+Score=1
+
+-----------------------------------------
+Sentence 10
+Italiano Arcaico -> l' anima muta la sua forza per la propietade di quello corpo a cui ella si congiunge.
+Italiano moderno -> L'anima muta la sua forza per la proprietà di quel corpo a cui si congiunge.
+Score=5
+
+Average Score=3.6
+
+WITH IN CONTEXT LEARNING
+
+Sentence 1
+Italiano Arcaico -> Gli uomini spessamente a stare fermi nella bugia incontra la verità.
+Italiano moderno -> “Gli uomini che si aggrappano fermamente alla menzogna spesso incontrano la verità.”
+score=5
+
+-----------------------------------------
+Sentence 2
+Italiano Arcaico -> quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno
+Italiano moderno -> “Quella guerra fu di grande importanza; per raggiungere i suoi obiettivi, l’opera si è compiuta. Dall’altra parte, Aiaces era un cavaliere franco e valoroso, di grande prestigio, ma non era particolarmente saggio.”
+score=5
+
+-----------------------------------------
+Sentence 3
+Italiano Arcaico -> Tarentini, i quali erano nati di quegli di Lacedemonia et facta da lloro nobile cittade de' Greci.
+Italiano moderno -> “I Tarentini, provenienti da Lacedonia e creati da una nobile città greca, erano un popolo di grande linfa.”
+score=4
+
+-----------------------------------------
+Sentence 4
+Italiano Arcaico -> per tanto che Lucano il disse, il vi racontiamo. Ivi, quando l'anima di Pompeo ebe sentito la chiarità di lasusso, ella sì cognobe prima in  grande
+Italiano moderno -> “Per quanto Lucano abbia affermato, questo racconto ci viene narrato. Quando l'anima di Pompeo fu sentita, la chiarezza di Lascio, e la sua comprensione crebbe, *prima* ebbe una conoscenza profonda di quella situazione.”
+score=3
+
+-----------------------------------------
+Sentence 5
+Italiano Arcaico -> uno luogo si mandano lancioni;  la quale cosa i cavalieri l' appellano capo di porco
+Italiano moderno -> “Si mandano lancioni in un luogo. I cavalieri lo chiamano la testa di porco.”
+score=4
+
+-----------------------------------------
+Sentence 6
+Italiano Arcaico -> Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato
+Italiano moderno -> “Quando i poeti parlano di lupi, raccontano le virtù dei loro compagni e narrano storie allegoriche dei loro difetti, quando un ordine viene dato a un deputato che combatte contro i lupi.”
+score=2
+
+-----------------------------------------
+Sentence 7
+Italiano Arcaico -> Non voglio, che insuperbischi per lo santo proposito, e voto della verginità vedendo le sue laudi
+Italiano moderno -> Non voglio che qualcuno si sfili per il santo proposito, né che la mia verginità sia vista come un atto di peccato. Vedendo le sue lodi, il voto della verginità mi sembra un’apparenza, un’illusione.
+score=3
+
+-----------------------------------------
+Sentence 8
+Italiano Arcaico -> Alexandri, ciò è il genero e 'l figliuolo, da Phausonia, gentile iovane di Macedonia, stando in uno luogo strecto sanza guardia, fue morto.
+Italiano moderno -> Alexandri, il suo genero e figlio, originario di Phausonia, una regione di fioritura, gentile e imponente, seduto in un luogo isolato e non vigilato, è morto.
+score=3
+
+-----------------------------------------
+Sentence 9
+Italiano Arcaico -> L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.
+Italiano moderno -> “L'uccello, dopo aver imparato a volare, non riesce più a sfuggire, né il porco del genere si libera bene dalle reti in cui cade.”
+score=3
+
+-----------------------------------------
+Sentence 10
+Italiano Arcaico -> l' anima muta la sua forza per la propietade di quello corpo a cui ella si congiunge.
+Italiano moderno -> L'anima muta la sua forza per la proprietà di quel corpo a cui si unisce.
+score=5
+
+Average Score=3.7
+
+
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+Ora con frasi di Test:
+
+Prompt given to chat-gpt:
+Evaluate these translations from old Italian to modern Italian using these evaluations key-points:
+
+1)= Unacceptable – The translation is completely unrelated to the original meaning; it may be gibberish or nonsensical.
+
+2)= Very Poor – Major semantic or syntactic errors, including omissions or additions, make the translation unnatural and something no human would write.
+
+3)= Fair – The translation contains minor issues such as typos or small semantic errors but generally conveys the intended meaning.
+
+4)= Good – The translation is mostly accurate and faithful to the source, though the style may differ slightly. It remains fluent and understandable.
+
+5)= Excellent – The translation is fully accurate, fluent, coherent, and preserves the original meaning completely.
+
+WITHOUT IN CONTEXT LEARNING
+
+Sentence number 1:
+
+Original sentence: Et se l' occhio è nobile membro del corpo dell' uomo, dunque la salutazione è nobile parte della pistola, c' altressì allumina tutta la lettera come l' occhio allumina l' uomo.
+Traduction: E se l’occhio è una parte nobile del corpo umano, allora il saluto è una parte nobile della lettera, che illumina l’intero testo come l’occhio illumina l’uomo.;Se l'occhio è un membro nobile del corpo umano, allora la guarigione è una parte nobile della medicina. Altrimenti, tutta la lettera si trasforma come l'occhio, rivelando la sua natura.
+Score: 2
+
+Sentence number 2 :
+
+Original sentence: Tarentini, i quali erano nati di quegli di Lacedemonia et facta da lloro nobile cittade de' Greci.
+Traduction: Tarantini, i quali erano nati da coloro che provenivano da Lacedemia e furono realizzati da un nobile popolo Greco
+Score: 3
+
+Sentence number 3 : 
+
+Original sentence: Ulecois, ebe un uomo rico e nobile: Orgentore fue chiamato per nome
+Traduction: Uleco, era un uomo ricco e nobile: Orgentore fu chiamato per nome.
+Score: 4
+
+Sentence number 4 : 
+
+Original sentence: però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia
+Traduction: a, che nobile cosa e alta è la minaccia, poi non è meno degno essere di avere una misurata prudenza.
+Score: 1
+
+Sentence number 5 :
+
+Original sentence: Alexandri, ciò è il genero e 'l figliuolo, da Phausonia, gentile iovane di Macedonia, stando in uno luogo strecto sanza guardia, fue morto.
+Traduction: Alexandri, figlio e nipote del suo padre, Phausonia, di origine iovana di Macedonia, che si trovava in una posizione stretta e inosservata, è morto
+Score: 2
+
+Sentence number 6 :
+
+Original sentence: Alchuno è riccho e gentile, ma lamentasi che vorebbe avere altra moglie che quella ch'egli à.
+Traduction: Alchuno è ricco e gentile, ma lamentandosi di desiderare una seconda moglie, quella che ha
+Score: 2
+
+Sentence number 7 :
+
+Original sentence: Pietro, essendogli mostrato in figura il populo Gentile, sì gli fu detto: ammazza, e mangia
+Traduction: Pietro, quando gli fu mostrata la figura del Popolo Gentile, gli furono ordinati di uccidere e mangiare.
+Score: 3
+
+Sentence number 8 : 
+
+Original sentence: pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta 
+Traduction: L’esilio che mi aveva liberato da quella vincolo, in cui egli era rimasto incastrato. Il gentile uomo si rifiutò, e lo liberò, e lo trasformò in carta.;3;0
+Score: 1
+
+Sentence number 9 :
+
+Original sentence: L'oro verrà dall'Aquilone. Che figuriamo noi per l'Aquilone, se non il populo Gentile congelato dal freddo del peccato, il qual populo tenne sotto il giogo della sua tirannia
+Traduction: L'oro verrà dall'Aquilone. Cosa ci dice questa frase del nostro tempo? Ci troviamo in una situazione di dipendenza da un potere, un'autorità, che è stata erosa dal peccato, un popolo che si è arreso alla tirannia.
+Score: 2
+
+Sentence number 10 :
+
+Original sentence: sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò
+Traduction: In mezzo a me, non puoi più più vivere. Non lo sopporterò, non lo lascerò.
+Score: 1
+
+Average Score: 2.0
+
+Prompt given to chat-gpt:
+Evaluate these translations from old Italian to modern Italian using  the Goof Kfouri Rubric:
+| Sentence | Accuracy | Grammar | Style | Idiomaticity | Average Score | Note                                                                                         |
+| -------- | -------- | ------- | ----- | ------------ | ------------- | -------------------------------------------------------------------------------------------- |
+| 1        | 2        | 4       | 2     | 2            | **2.50**      | Metaphor lost; second translation shifts subject entirely (to medicine), breaking coherence. |
+| 2        | 3        | 3       | 3     | 3            | **3.00**      | Fair translation, but lacks fluency; “realizzati da un nobile popolo” is awkward.            |
+| 3        | 4        | 4       | 4     | 4            | **4.00**      | Clear and faithful; minor typo in subject name.                                              |
+| 4        | 1        | 2       | 2     | 1            | **1.50**      | Meaning misinterpreted; “minaccia” and “misurata prudenza” are off-topic.                    |
+| 5        | 2        | 2       | 2     | 1            | **1.75**      | Sentence structure is tangled; relationships and names confused.                             |
+| 6        | 2        | 2       | 2     | 2            | **2.00**      | Broken structure; meaning is only partially recoverable.                                     |
+| 7        | 3        | 3       | 3     | 2            | **2.75**      | Meaning is largely preserved but grammar is faulty; “ordinati” is incorrect.                 |
+| 8        | 1        | 2       | 1     | 1            | **1.25**      | Incoherent; invents a new meaning unrelated to the original.                                 |
+| 9        | 2        | 2       | 2     | 1            | **1.75**      | Highly interpretative and inaccurate; shifts focus from original metaphor.                   |
+| 10       | 1        | 2       | 2     | 1            | **1.50**      | Garbled syntax; meaning is deeply obscured by mistranslation.                                |
+
+Average Score: 2.2
+
+Scores given by us:
+Sentence Number 1: 3
+Sentence Number 2: 4
+Sentence Number 3: 3
+Sentence Number 4: 2
+Sentence Number 5: 3
+Sentence Number 6: 2
+Sentence Number 7: 4
+Sentence Number 8: 1
+Sentence Number 9: 2
+Sentence Number 10: 2
+
+Average Score=2.7
+
+With Context Learning:
+
+Sentence number 1:
+
+Original sentence: Et se l' occhio è nobile membro del corpo dell' uomo, dunque la salutazione è nobile parte della pistola, c' altressì allumina tutta la lettera come l' occhio allumina l' uomo.
+Traduction: Se l’occhio è un membro nobile del corpo umano, allora la salute è una parte nobile della pistola. Così, ogni lettera viene illuminata come l’occhio illumina l’uomo.
+Score: 2
+
+Sentence number 2 :
+
+Original sentence: Tarentini, i quali erano nati di quegli di Lacedemonia et facta da lloro nobile cittade de' Greci.
+Traduction: I Tarentini, originari di Lacedonia e creati da un popolo nobile greco, erano i guerrieri.
+Score: 3
+
+Sentence number 3 : 
+
+Original sentence: Ulecois, ebe un uomo rico e nobile: Orgentore fue chiamato per nome
+Traduction: Uleco, un uomo ricco e nobile, fu chiamato per nome.
+Score: 5
+
+Sentence number 4 : 
+
+Original sentence: però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia
+Traduction: Comunque, che, quella nobile nobiltà del nemico è in realtà poco apprezzabile. Infatti, non meno degno è saper cogliere una misurata prudenza
+Score: 2
+
+Sentence number 5 :
+
+Original sentence: Alexandri, ciò è il genero e 'l figliuolo, da Phausonia, gentile iovane di Macedonia, stando in uno luogo strecto sanza guardia, fue morto.
+Traduction: Alexandri, il suo genero e figlio, nato a Phausonia, di origine macedone gentile e prudente, era morto in un luogo isolato e non minacciato
+Score: 2
+
+Sentence number 6 :
+
+Original sentence: Alchuno è riccho e gentile, ma lamentasi che vorebbe avere altra moglie che quella ch'egli à.
+Traduction: Chi è ricco e gentile, ma lamenta che vorrebbe avere una seconda moglie, quella che ha
+Score: 2
+
+Sentence number 7 :
+
+Original sentence: Pietro, essendogli mostrato in figura il populo Gentile, sì gli fu detto: ammazza, e mangia
+Traduction: Pietro, vedendo la figura del popolo, gli venne ordinato di uccidere e mangiare
+Score: 3
+
+Sentence number 8 : 
+
+Original sentence: pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta 
+Traduction: Un’ingiunzione che mi liberasse da quella condizione, in cui mi ritrovai obbligato. Il gentiluomo si rifiutò, e mi liberò, e lo trasformò in carta
+Score: 2
+
+Sentence number 9 :
+
+Original sentence: L'oro verrà dall'Aquilone. Che figuriamo noi per l'Aquilone, se non il populo Gentile congelato dal freddo del peccato, il qual populo tenne sotto il giogo della sua tirannia
+Traduction: L’oro arriverà dall’Aquilone. Cosa possiamo dire dell’Aquilone, se non il popolo gentile, congelato dal freddo del peccato, il quale, sotto la tirannia, teneva sotto il giogo la sua stessa sorte"
+Score: 3
+
+Sentence number 10 :
+
+Original sentence: sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò
+Traduction:In mezzo a me e a te, non puoi ancora stare a lungo qui. Non lo sopporto e non lo lascerò.
+
+Score: 4
+
+Average Score: 2.8
+
+
+Prompt given to chat-gpt:
+Evaluate these translations from old Italian to modern Italian using these evaluations the Goof Kfouri Rubric:
+
+| Sentence | Accuracy | Grammar | Style | Idiomaticity | Average Score | Note                                                                                   |
+| -------- | -------- | ------- | ----- | ------------ | ------------- | -------------------------------------------------------------------------------------- |
+| **1**    | 2        | 4       | 2     | 2            | **2.50**      | “Pistola” misunderstood; “salutazione” turned into “salute”; metaphoric parallel lost. |
+| **2**    | 3        | 3       | 3     | 3            | **3.00**      | Generally coherent; some liberties in adding “guerrieri”; faithful but not elegant.    |
+| **3**    | 4        | 4       | 4     | 4            | **4.00**      | Clear, accurate, and idiomatic. Minor simplification.                                  |
+| **4**    | 2        | 3       | 2     | 2            | **2.25**      | Core meaning obscured; phrases like “nobiltà del nemico” are invented.                 |
+| **5**    | 2        | 2       | 2     | 2            | **2.00**      | Confuses relationships; loses subject clarity; awkward phrasing.                       |
+| **6**    | 2        | 2       | 2     | 2            | **2.00**      | Sentence structure is broken; meaning is unclear.                                      |
+| **7**    | 3        | 3       | 3     | 3            | **3.00**      | Fairly accurate but omits “Gentile” as descriptor; loses theological context.          |
+| **8**    | 1        | 2       | 1     | 1            | **1.25**      | Drastically changes meaning; invented “ingiunzione” and contradicts original action.   |
+| **9**    | 3        | 3       | 3     | 2            | **2.75**      | Captures much of the meaning, but muddles metaphor and phrasing.                       |
+| **10**   | 4        | 4       | 3     | 4            | **3.75**      | Mostly accurate; slightly modernized language, but keeps tone and meaning.             |
+
+Average Score: 2.45 
+
+Scores given by us:
+Sentence Number 1: 4
+Sentence Number 2: 4
+Sentence Number 3: 3
+Sentence Number 4: 2
+Sentence Number 5: 4
+Sentence Number 6: 2
+Sentence Number 7: 4
+Sentence Number 8: 1
+Sentence Number 9: 3
+Sentence Number 10: 3
+
+Average Score= 3.0
+
+FLAN T-5 BASE:
+Average 5-key-points: 2.0
+Average Goof Kfouri: 1.625
+Average Our Grades: 1.8
+
+FLAN T-5 X-LARGE:
+Average 5-key-points: 2.6
+Average Goof Kfouri: 2.65
+Average Our Grades: 2.8
+
+Helsinki
+
+Original Sentence Number 1: Et se l' occhio è nobile membro del corpo dell' uomo, dunque la salutazione è nobile parte della pistola, c' altressì allumina tutta la lettera come l' occhio allumina l' uomo
+Translated Sentence Number 2: E se l'occhio è un nobile membro del corpo dell'uomo, allora il saluto è una parte nobile della pistola, c'è anche alluminio tutta la lettera come l'uomo occhio di alluminio
+
+Original Sentence Number 2: Tarentini, i quali erano nati di quegli di Lacedemonia et facta da lloro nobile cittade de' Greci
+Translated Sentence Number 2: Tarentini, che sono nati da quelli di Lacedemonia et facta dalla loro nobile cittadella dei Greci.
+
+Original Sentence Number 3: Ulecois, ebe un uomo rico e nobile: Orgentore fue chiamato per nome
+Translated Sentence Number 3: Ulecois, un uomo nobile, chiamato per nome.
+
+Original Sentence Number 4: però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia
+Translated Sentence Number 4: ma che, nobili o alti, il nemico batte, allora la nonna è meno lodevole di conoscere la misericordia.
+
+Original Sentence Number 5: Alexandri, ciò è il genero e 'l figliuolo, da Phausonia, gentile iovane di Macedonia, stando in uno luogo strecto sanza guardia, fue morto
+Translated Sentence Number 5: Alexandri, questo è il genero e il genero, di Fausonia, una giovane donna gentile di Macedonia, in piedi in un luogo angosciato senza una guardia, era morto.
+
+Original Sentence Number 6: Alchuno è riccho e gentile, ma lamentasi che vorebbe avere altra moglie che quella ch'egli à 
+Translated Sentence Number 6: Alchuno è ricco e gentile, ma si lamenta che vorrebbe avere un'altra moglie rispetto a quella che è.
+
+Original Sentence Number 7: Pietro, essendogli mostrato in figura il populo Gentile, sì gli fu detto: ammazza, e mangia   
+Translated Sentence Number 7:  Pietro, essendo mostrato nella sua figura il popolo Gentile, è stato detto a lui, uccidere, e mangiare.
+
+Original Sentence Number 8: pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta. 
+Translated Sentence Number 8: Lo supplico di liberarlo da quel legame, nel quale lo aveva lasciato legato; il gentiluomo si astentò, lo liberò e lo fece carta. 
+
+Original Sentence Number 9: L'oro verrà dall'Aquilone. Che figuriamo noi per l'Aquilone, se non il populo Gentile congelato dal freddo del peccato, il qual populo tenne sotto il giogo della sua tirannia
+Translated Sentence Number 9: L'oro uscirà dall'aquilone, che considereremo per l'aquilone, eccetto il popolo, Gentile, congelato dal freddo del peccato, che gli uomini custodivano sotto il giogo della sua tirannia.;L’oro verrà dal Settentrione. 
+
+Original Sentence Number 10: sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.
+Translated Sentence Number 10: stai in mezzo a me e a te; con noi non puoi più dimorare, perché non l'ho rattristato e non lo lascerò.
+
+Average 5-key-points: 2.4
+Average GOOf Kfouri: 2.2
+Average Our Grades: 2.7
+
