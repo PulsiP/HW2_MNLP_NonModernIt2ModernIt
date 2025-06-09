@@ -67,6 +67,6 @@ if __name__ == "__main__":
     
     input_text = "Onde poi ch’ebbe fine il pianto nostro, che in verità fu grande e pietoso..."
     candidate_translation = "Quando poi finì il nostro pianto, che davvero fu intenso e commovente..."
-    eval = SentencesEvaluator(api_key="AIzaSyDknRbJ1wUZdF2Tn5FcIxB7HNlrjmSHG4Y", task_description=desc, criteria=criteria)
+    eval = SentencesEvaluator(api_key="your_key", task_description=desc, criteria=criteria)
     res = eval.evaluate_sentence(input_text=input_text, candidate_text=candidate_translation, gold_label="None")
     print(res)
