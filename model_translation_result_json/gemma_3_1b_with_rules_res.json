@@ -85,14 +85,16 @@
     "GPT_score": {
       "Pearson": 0.7819732395959151,
       "spearman_corr": 0.7614329560565094,
-      "kendall_corr": 0.6405126152203485
+      "kendall_corr": 0.6405126152203485,
+      "cohen_kappa_score": 0.25
     }
   },
   {
     "Prometheus_score": {
       "Pearson": 0.6204895470677798,
       "spearman_corr": 0.6238748455822506,
-      "kendall_corr": 0.560448538317805
+      "kendall_corr": 0.560448538317805,
+      "cohen_kappa_score": 0.15662650602409645
     }
   }
 ]
